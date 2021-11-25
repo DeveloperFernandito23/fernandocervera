@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+    top: 150px;
+    position: relative;
+}
+.contenido{
+    top: 10%;
+    color: red;
+    text-align: center;
+    position: relative;
+}
+.contenido >h2{
+    font-size: 22px;
+    margin-left: 25%;
+    margin-right: 25%;
+    position: relative;
+    top: 65;
+    text-align: center;
+}
+button{
+    border-color: rgb(236, 0, 51);
+    top: 25px;
+    background-color: black;
+    color: white;
+    position: relative;
+    border-radius: 50%;
+    width: 105px;
+    height: 105px;
+}

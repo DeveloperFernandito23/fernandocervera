@@ -1,0 +1,233 @@
+body{
+    top: 150px;
+    color: rgb(207, 8, 8);
+    text-align: center;
+    position: relative;  
+}
+.contenido{
+    text-align:center;
+    position: relative;
+}
+.calc{
+    width: 350px;
+    height: 350px;
+    right: 30%;
+    top: 0;
+    position: relative;
+}
+.photo{
+    position: absolute;
+    top: 355%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    display: block;
+}
+.tsts{
+    position: absolute;
+    z-index: 1;
+    transform: translate(-25%, -65%);
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    line-height: 1.2;
+    color: rgb(207, 1, 1);
+}
+  
+.photo img{
+    width: 200px;
+    height: 280px;
+    object-fit: cover;
+    filter: grayscale(100%) contrast(120%);
+    box-shadow: 10px 15px 25px 0 rgba(0,0,0,.2);
+    display: block;
+    transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1);
+    margin-top: -10px;
+}
+  
+.photo:hover img{
+    box-shadow: 1px 1px 10px 0 rgba(0,0,0,.1);
+}
+  
+.photo .glow-wrap{
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    margin-top: -10px;
+}
+  
+.photo .glow{
+    display: block;
+    position:absolute;
+    width: 40%;
+    height: 200%;
+    background: rgba(255,255,255,.2);
+    top: 0;
+    filter: blur(5px);
+    transform: rotate(45deg) translate(-450%, 0);
+    transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+  
+.photo:hover .glow{
+    transform: rotate(45deg) translate(450%, 0);
+    transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+  
+.photo:hover img,.photo:hover .glow-wrap{
+    margin-top: 0;  
+}
+.photo_dos{
+    position: absolute;
+    top: 355%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+}
+.dos{
+    position: absolute;
+    z-index: 1;
+    transform: translate(-25%, -65%);
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    line-height: 1.2;
+    color: rgb(207, 1, 1);
+}
+  
+.photo_dos img{
+    width: 280px;
+    height: 200px;
+    object-fit: cover;
+    filter: grayscale(100%) contrast(120%);
+    box-shadow: 10px 15px 25px 0 rgba(0,0,0,.2);
+    display: block;
+    transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1);
+    margin-top: -10px;
+}
+  
+.photo_dos:hover img{
+    box-shadow: 1px 1px 10px 0 rgba(0,0,0,.1);
+}
+  
+.photo_dos .glow-wrap2{
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    margin-top: -10px;
+}
+  
+.photo_dos .glow2{
+    display: block;
+    position:absolute;
+    width: 40%;
+    height: 200%;
+    background: rgba(255,255,255,.2);
+    top: 0;
+    filter: blur(5px);
+    transform: rotate(45deg) translate(-450%, 0);
+    transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+  
+.photo_dos:hover .glow2{
+    transform: rotate(45deg) translate(450%, 0);
+    transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+  
+.photo_dos:hover img,.photo_dos:hover .glow-wrap2{
+    margin-top: 0;  
+} 
+.photo_dos{
+    position: absolute;
+    top: 355%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+}
+.tres{
+    position: absolute;
+    z-index: 1;
+    transform: translate(-25%, -65%);
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    line-height: 1.2;
+    color: rgb(207, 1, 1);
+    top: 615px;
+    left: 40%;
+}
+  
+.photo_tres img{
+    width: 480px;
+    height: 25 0px;
+    object-fit: cover;
+    filter: grayscale(100%) contrast(120%);
+    box-shadow: 10px 15px 25px 0 rgba(0,0,0,.2);
+    display: block;
+    transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1);
+    margin-top: -10px;
+    position:absolute;
+    top: 615px;
+    left: 40%;
+}
+  
+.tres:hover img{
+    box-shadow: 1px 1px 10px 0 rgba(0,0,0,.1);
+}
+  
+.photo_tres .glow-wrap3{
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    margin-top: -10px;
+}
+  
+.photo_tres .glow3{
+    display: block;
+    position:absolute;
+    width: 40%;
+    height: 200%;
+    background: rgba(255, 255, 255, 0.2);
+    top: 0;
+    filter: blur(5px);
+    transform: rotate(45deg) translate(-450%, 0);
+    transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+  
+.photo_tres:hover .glow3{
+    transform: rotate(45deg) translate(450%, 0);
+    transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+  
+.photo_tres:hover img,.tres:hover .glow-wrap3{
+    margin-top: 0;  
+}  
+  /* TERMINA*/
+  
+.btnmg{
+    position: relative;
+    top: 395px;
+    text-align:center;
+    border-radius: 50%;
+    background-color: rgb(15, 5, 61);
+    color: rgb(255, 255, 255);
+
+}
+.btnmg:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(15, 5, 61);
+}
+#magia{
+    right: 0%;
+    top: 209px;
+    position: absolute;
+    text-align: center;
+    margin-left: 1205px;
+    margin-right: 128px;
+    font-size: 22px;
+}
+.eff{
+    top: 899px;
+    position: absolute;
+}

@@ -1,0 +1,54 @@
+body{
+    position: relative;
+    top: 150px;
+    color: rgb(207, 8, 8);
+    text-align: center;
+    position: relative;
+}
+.contenido{
+    top: 10%;
+    text-align: center;
+    position: relative;
+}
+.contenido >h2{
+    font-size: 22px;
+    margin-left: 25%;
+    margin-right: 25%;
+    position: relative;
+    top: 65;
+    text-align: center;
+}
+.written-text{
+    color: red;
+    position: relative;
+    top: 90px;
+}
+@import url('https://fonts.googleapis.com/css?family=Barrio');
+ 
+.hidden {
+ opacity:0;
+}
+.console-container {
+ font-family:Barrio;
+ font-size:  35px;
+ text-align:center;
+ height:30px;
+ width:600px;
+ display:inline;
+ position:relative;
+ color:rgb(148, 0, 0);
+ top: 105px;
+ bottom:0;
+ left:10px;
+ right:0;
+ margin:auto;
+}
+.console-underscore {
+ display:inline-block;
+ position:relative;
+ left:10px;
+}
+ 
+@media (max-width: 750px) {
+ .console-container { font-size:2em; }
+}
